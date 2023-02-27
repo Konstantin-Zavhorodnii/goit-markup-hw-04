@@ -279,22 +279,22 @@ h6 {
 }
 .icon-strategy::before {
   display: block;
-  background-image: url(../images/icon-strategy.svg);
+  background-image: url(../images/strategy.svg);
   background-size: 59.72px 64px;
 }
 .icon-punctuality::before {
   display: block;
-  background-image: url(../images/icon-punctuality.svg);
+  background-image: url(../images/clock.svg);
   background-size: 61.22px 64px;
 }
 .icon-diligence::before {
   display: block;
-  background-image: url(../images/icon-diligence.svg);
+  background-image: url(../images/diagram.svg);
   background-size: 64px 49.09px;
 }
 .icon-technologies::before {
   display: block;
-  background-image: url(../images/icon-astronaut.svg);
+  background-image: url(../images/astronaut.svg);
   background-size: 64px;
 }
 
@@ -375,10 +375,16 @@ h6 {
   padding-top: 100px;
   width: 264px;
 }
+.social-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 16px;
+  margin-right: 16px;
+  gap: 24px;
+}
 
 .social-team-link {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 40px;
@@ -387,6 +393,64 @@ h6 {
   border-radius: 50%;
 }
 .social-icon {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
+.section-customers {
+  background-color: #ffffff;
+}
+.customers-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+.customers-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.customers-icon {
+  width: 104px;
+  height: 56px;
+  fill: #8e8f99;
+}
+.social-media-footer {
+  width: 208px;
+  height: 80px;
+}
+.social-media-footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.social-list-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.social-footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.social-footer-icon {
   width: 16px;
   height: 16px;
   fill: #f4f4fd;
