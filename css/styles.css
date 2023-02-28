@@ -374,6 +374,7 @@ h6 {
 .footer-logo-text {
   padding-top: 100px;
   width: 264px;
+  margin-right: 120px;
 }
 .social-list {
   display: flex;
@@ -403,6 +404,7 @@ h6 {
 .customers-list {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 24px;
   margin-left: 156px;
   margin-right: 156px;
@@ -422,9 +424,13 @@ h6 {
   height: 56px;
   fill: #8e8f99;
 }
+.footer-content {
+  display: flex;
+}
 .social-media-footer {
   width: 208px;
   height: 80px;
+  margin-top: 100px;
 }
 .social-media-footer-text {
   font-family: "Roboto";
