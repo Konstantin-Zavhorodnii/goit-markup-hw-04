@@ -425,7 +425,7 @@ h6 {
 }
 .customers-link :hover,
 :focus {
-  background-color: #404bbf;
+  border-color: #404bbf;
 }
 .customers-icon {
   width: 104px;
