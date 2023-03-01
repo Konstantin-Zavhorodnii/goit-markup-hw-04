@@ -98,13 +98,10 @@ h6 {
     ),
     url(../images/people-office.jpg);
   background-size: cover;
-  background-attachment: fixed;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  height: 600px;
   background-position: center;
-
   padding: 188px 0;
 }
 .header-hero {
@@ -276,6 +273,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  padding-bottom: 8px;
 }
 .icon-strategy::before {
   display: block;
@@ -290,7 +288,7 @@ h6 {
 .icon-diligence::before {
   display: block;
   background-image: url(../images/diagram.svg);
-  background-size: 64px 49.09px;
+  background-size: 64px;
 }
 .icon-technologies::before {
   display: block;
@@ -393,6 +391,10 @@ h6 {
   background-color: #4d5ae5;
   border-radius: 50%;
 }
+.social-team-link:hover,
+:focus {
+  background-color: #404bbf;
+}
 .social-icon {
   width: 16px;
   height: 16px;
@@ -410,20 +412,32 @@ h6 {
   margin-right: 156px;
 }
 .customers-item {
+  width: 168px;
+  height: 88px;
+}
+.customers-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
-  height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background-color: #ffffff;
+}
+.customers-link :hover,
+:focus {
+  background-color: #404bbf;
 }
 .customers-icon {
   width: 104px;
   height: 56px;
   fill: #8e8f99;
+  margin: 16px 32px;
 }
+.customers-icon :hover,
+:focus {
+  fill: #404bbf;
+}
+
 .footer-content {
   display: flex;
 }
@@ -455,6 +469,10 @@ h6 {
   height: 40px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+}
+.social-footer-link :hover,
+:focus {
+  background-color: #31d0aa;
 }
 .social-footer-icon {
   width: 16px;
